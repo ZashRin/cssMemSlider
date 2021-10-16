@@ -50,6 +50,7 @@
     top: 31%;
     font-size: 16px;
     text-align: initial;
+    margin: 0;
 }
 
 .pagination > a {
@@ -111,6 +112,7 @@ body {
 
 main {
     width: 50%;
+    margin-bottom: 1rem;
 }
 
 .copyright {
@@ -122,4 +124,21 @@ main {
 .link {
     text-decoration: none;
     color: #000;
+}
+
+@media (min-width: 420px) and (max-width: 1419px) {
+    main,
+    .copyright {
+        width: 85%;
+    }
+
+    .slides p {
+        top: 45%;
+    }
+
+    .pagination {
+        left: 10%;
+        width: 80%;
+    }
+
 }
